@@ -8,8 +8,6 @@
 
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 
-    <!--<link rel="stylesheet" href="css/icon-font.css">-->
-
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 
@@ -28,13 +26,15 @@
 
         <nav class="navigation__nav">
             <ul class="navigation__list">
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>About Natous</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Your benfits</a></li>
+                <li class="navigation__item"><a href="#About" class="navigation__link"><span>01</span>About Natous</a>
+                </li>
+                <li class="navigation__item"><a href="#benfits" class="navigation__link"><span>02</span>Your benfits</a>
+                </li>
                 <li class="navigation__item"><a href="#section-tours" class="navigation__link">
                         <span>03</span>Popular tours</a>
                 </li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Stories</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Book now</a>
+                <li class="navigation__item"><a href="#Stories" class="navigation__link"><span>04</span>Stories</a></li>
+                <li class="navigation__item"><a href="#book" class="navigation__link"><span>05</span>Book now</a>
                 </li>
             </ul>
         </nav>
@@ -56,7 +56,7 @@
     </header>
 
     <main>
-        <section class="section-about">
+        <section class="section-about" id="About">
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
                     Exciting tours for adventurous people
@@ -94,18 +94,12 @@
                         <img srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w"
                             sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 3"
                             class="composition__photo composition__photo--p3" src="img/nat-3-large.jpg">
-
-                        <!--
-                            <img src="img/nat-1-large.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
-                            <img src="img/nat-2-large.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
-                            <img src="img/nat-3-large.jpg" alt="Photo 3" class="composition__photo composition__photo--p3">
-                            -->
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section-features">
+        <section class="section-features" id="benfits">
 
             <div class="row">
                 <div class="col-1-of-4">
@@ -261,7 +255,7 @@
             </div>
         </section>
 
-        <section class="section-stories">
+        <section class="section-stories" id="Stories">
             <div class="bg-video">
                 <video class="bg-video__content" autoplay muted loop>
                     <source src="img/video.mp4" type="video/mp4">
@@ -317,7 +311,7 @@
             </div>
         </section>
 
-        <section class="section-book">
+        <section class="section-book" id="book">
             <div class="row">
                 <div class="book">
                     <div class="book__form">
@@ -430,6 +424,8 @@
         </div>
     </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
