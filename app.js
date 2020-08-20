@@ -1,4 +1,3 @@
-// ['hashchange', 'load'].forEach(event => window.addEventListener(event, controlRecipe));
 const UIController = (() => {
     return {
         closeNav: () => {
